@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <center>
+
+        <button type="button" id="btn1" name="btn1">-</button>
+        <button type="button" id="btn2" name="btn2">16</button>
+        <button type="button" id="btn3" name="btn3">+</button>
+        <br /><br />
+
+        <p id="para">sample text</p>
+    </center>
+
+    <script>
+        btn3.addEventListener("click", function () {
+            let element = document.getElementById("para");
+            console.log(element)
+            element.style.fontsize = "larger";
+        })
+
+    </script>
+</body>
+
+</html>

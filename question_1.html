@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* // first strip  */
+        .first {
+            height: 2rem;
+            width: 100vw;
+            background-color: green;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .first-child {
+            height: 1rem;
+            width: 1rem;
+            background-color: red;
+        }
+
+        .mb {
+            margin-bottom: 2rem;
+        }
+
+        /* second strip  */
+        .second {
+            height: 2rem;
+            width: 100vw;
+            background-color: red;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .second-child {
+            height: 2rem;
+            width: 2rem;
+            background-color: blue;
+        }
+
+        /* third strip  */
+
+        .third {
+            height: 2rem;
+            width: 100vw;
+            background-color: blue;
+            display: flex;
+            /* justify-content: center; */
+            align-items: center;
+        }
+
+        .third-first {
+            height: 2rem;
+            width: 5%;
+            background-color: red;
+            display: inline-block;
+            align-self: flex-start;
+        }
+
+        .third-second {
+            height: 1rem;
+            width: 94.5%;
+            background-color: green;
+            display: inline-block;
+        }
+
+        /* fourth strip  */
+        .fourth {
+            height: 2rem;
+            width: 100vw;
+            background-color: green;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .fourth-child {
+            height: 2rem;
+            width: 2rem;
+            background-color: yellow;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="first mb">
+        <div class="first-child"></div>
+    </div>
+
+    <div class="second mb">
+        <div class="second-child"></div>
+    </div>
+
+    <div class="third mb">
+        <div class="third-first"></div>
+        <div class="third-second"></div>
+    </div>
+
+    <div class="fourth mb">
+        <div class="fourth-child"></div>
+        <div class="fourth-child"></div>
+        <div class="fourth-child"></div>
+        <div class="fourth-child"></div>
+        <div class="fourth-child"></div>
+    </div>
+
+
+</body>
+
+</html>
